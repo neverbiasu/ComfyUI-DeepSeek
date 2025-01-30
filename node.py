@@ -37,8 +37,8 @@ class DeepSeekCaller:
 
     FUNCTION = "call_model"
     OUTPUT_NODE = True
-    RETURN_TYPE = ("STRING",)
-    RETURN_NAME = "STRING"
+    RETURN_TYPES = ("STRING",)
+    RETURN_NAMES = ("STRING",)
 
     CATEGORY = "deepseek"
 
