@@ -14,7 +14,7 @@ class DeepSeekCaller:
                 "model": (
                     "COMBO",
                     ["deepseek-chat", "deepseek-reasoner"],
-                    {"defualt": "deepseek-chat"},
+                    {"default": "deepseek-chat"},
                 ),
                 "system_prompt": (
                     "STRING",
