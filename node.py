@@ -18,19 +18,24 @@ class DeepSeekCaller:
                 ),
                 "system_prompt": (
                     "STRING",
-                    {"placeholder": "Enter the system prompt here."},
+                    {
+                        "multiline": True,
+                        "default": "",
+                        "placeholder": "Enter the system prompt here.",
+                    },
                 ),
                 "user_prompt": (
                     "STRING",
-                    {"placeholder": "Enter the user prompt here."},
+                    {
+                        "multiline": True,
+                        "default": "",
+                        "placeholder": "Enter the user prompt here.",
+                    },
                 ),
-                "max_tokens": (
-                    "INT",
-                    {"default": 1024, "min": 1, "max": 8192},
-                ),
+                "max_tokens": ("INT", {"default": 1024, "min": 1, "max": 8192}),
                 "temperature": (
                     "FLOAT",
-                    {"default": 1.5},
+                    {"default": 1.5, "min": 0.0, "max": 2.0, "step": 0.1},
                 ),
             }
         }
