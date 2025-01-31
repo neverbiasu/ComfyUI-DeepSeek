@@ -5,5 +5,5 @@ NODE_NAME_MAPPINGS = {
 }
 
 NODE_DISPLAY_NAME_MAPPINGS = {
-    "DeepSeek Caller": DeepSeekCaller,
+    "DeepSeekCaller": "DeepSeek Caller",
 }
