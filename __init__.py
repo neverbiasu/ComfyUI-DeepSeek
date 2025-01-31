@@ -1,6 +1,6 @@
 from .node import DeepSeekCaller
 
-NODE_NAME_MAPPINGS = {
+NODE_CLASS_MAPPINGS = {
     "DeepSeekCaller": DeepSeekCaller,
 }
 

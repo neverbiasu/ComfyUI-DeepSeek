@@ -12,7 +12,6 @@ class DeepSeekCaller:
         return {
             "required": {
                 "model": (
-                    "COMBO",
                     ["deepseek-chat", "deepseek-reasoner"],
                     {"default": "deepseek-chat"},
                 ),
